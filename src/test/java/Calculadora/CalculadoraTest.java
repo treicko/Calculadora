@@ -26,5 +26,12 @@ public class CalculadoraTest {
 		int numero2 = 4;
 		assertEquals(9, calculadora.Sumar(numero1,numero2));
 	}
+	
+	@Test
+	public void LaRestaDeUnNueroConCeroEsElMismoNumero(){
+		Calculadora calculadora = new Calculadora();
+		int numero = 12;
+		assertEquals(numero, calculadora.Resta(numero,0));
+	}
 
 }
