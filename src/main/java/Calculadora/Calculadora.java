@@ -10,4 +10,9 @@ public class Calculadora {
 		return numero1 - numero2;
 	}
 
+	public int Multiplicacion(int i, int j) {
+		// TODO Auto-generated method stub
+		return j;
+	}
+
 }
