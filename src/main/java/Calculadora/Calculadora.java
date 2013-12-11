@@ -12,7 +12,7 @@ public class Calculadora {
 
 	public int Multiplicacion(int i, int j) {
 		// TODO Auto-generated method stub
-		return j;
+		return i*j;
 	}
 
 }

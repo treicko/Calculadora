@@ -41,5 +41,10 @@ public class CalculadoraTest {
 	public void LaMultiplicacionDeCualquierNumeroPorCeroEsCero(){
 		assertEquals(0, calculadora.Multiplicacion(9,0));		
 	}
+	
+	@Test
+	public void DeVuelveVeinteQueEsLaMultiplicacionDeCincoYCuatro(){
+		assertEquals(20, calculadora.Multiplicacion(5, 4));
+	}
 
 }
