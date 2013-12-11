@@ -46,5 +46,10 @@ public class CalculadoraTest {
 	public void DeVuelveVeinteQueEsLaMultiplicacionDeCincoYCuatro(){
 		assertEquals(20, calculadora.Multiplicacion(5, 4));
 	}
+	
+	@Test
+	public void LaDivisionDeCualquierNumeroEntreUnoEsElMismoNumero(){
+		assertEquals(9, calculadora.Division(9,1));
+	}
 
 }
