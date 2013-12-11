@@ -33,5 +33,13 @@ public class CalculadoraTest {
 		int numero = 12;
 		assertEquals(numero, calculadora.Resta(numero,0));
 	}
+	
+	@Test
+	public void DevuelveUnoQueEsLaRestaDeCincoYCuatro(){
+		Calculadora calculadora = new Calculadora();
+		int numero1 = 5;
+		int numero2 = 4;
+		assertEquals(1, calculadora.Resta(numero1, numero2));
+	}
 
 }
