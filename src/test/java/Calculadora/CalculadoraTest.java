@@ -51,5 +51,10 @@ public class CalculadoraTest {
 	public void LaDivisionDeCualquierNumeroEntreUnoEsElMismoNumero(){
 		assertEquals(9, calculadora.Division(9,1));
 	}
+	
+	@Test
+	public void DevuelveDosQueEsLaDivisionEntreOchoYCuatro(){
+		assertEquals(2, calculadora.Division(8,4));
+	}
 
 }

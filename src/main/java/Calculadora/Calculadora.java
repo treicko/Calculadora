@@ -17,7 +17,7 @@ public class Calculadora {
 
 	public int Division(int i, int j) {
 		// TODO Auto-generated method stub
-		return i;
+		return i/j;
 	}
 
 }
